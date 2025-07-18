@@ -1,5 +1,5 @@
 import React from 'react'
-import { assets } from '../assets/assets'
+
 import logo from '../assets/logo.png'
 
 const Footer = () => {
@@ -9,7 +9,7 @@ const Footer = () => {
             <div className='w-full md:w-1/3 mb-8 md:mb-0'>
               <img src={logo} alt="" className='w-40' />
             <p className='text-gray-400 mt-4'>
-            Rothmann Properties is dedicated to providing exceptional real estate solutions, helping you find your perfect home or investment. Trust, integrity, and customer satisfaction are at the heart of everything we do.
+              Rothmann Properties is dedicated to providing exceptional real estate solutions, helping you find your perfect home or investment. Trust, integrity, and customer satisfaction are at the heart of everything we do.
             </p>
             </div>
 
@@ -17,8 +17,8 @@ const Footer = () => {
                 <h3 className='text-white text-lg font-bold mb-4'>Company</h3>
                 <ul className='flex flex-col gap-2 text-gray-400'>
                     <a href="#Header" className='hover:text-white'>Home</a>
-                    <a href="#About" className='hover:text-white'>Aboout us</a>
-                    <a href="#Contact" className='hover:text-white'>Conctact us</a>
+                    <a href="#About" className='hover:text-white'>About us</a>
+                    <a href="#Contact" className='hover:text-white'>Contact us</a>
                     <a href="#" className='hover:text-white'>Privacy policy</a>
                 </ul>
             </div>
